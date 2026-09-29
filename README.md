@@ -67,6 +67,8 @@ Things to ask once it is connected:
 
 This server is the assistant-facing half of [Crawl Cove](https://crawlcove.com/?utm_source=github&utm_medium=crawlcove-mcp), a desktop SEO crawler for Windows and Mac. For anything past 200 pages, for history over time, for Search Console data next to the crawl, or to fix findings in bulk, run the crawl in the desktop app and hand its export to `load_export`.
 
+This repo has its own page on crawlcove.com: [Crawl Cove MCP server](https://crawlcove.com/open-source/crawlcove-mcp?utm_source=github&utm_medium=crawlcove-mcp).
+
 ## Development
 
 ```sh
