@@ -79,6 +79,7 @@ npm ci && npm run build && npm test
 
 ## Related tools
 
+- [crawlcove-hreflang-checker](https://github.com/CrawlCove/crawlcove-hreflang-checker) — check a page's or a sitemap's hreflang tags: codes, self-reference, x-default and return tags.
 - [crawlcove-cli](https://github.com/CrawlCove/crawlcove-cli) — the command line crawler this server uses for live crawls.
 - [crawlcove-action](https://github.com/CrawlCove/crawlcove-action) — the same checks as a GitHub Action on every PR.
 - [crawlcove-export-spec](https://github.com/CrawlCove/crawlcove-export-spec) — the JSON Schema for the desktop export `load_export` reads.
