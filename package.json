@@ -1,0 +1,49 @@
+{
+  "name": "crawlcove-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that gives Claude, Cursor and other AI assistants your site's SEO crawl data: crawl a site, list issues, inspect pages, find broken links.",
+  "type": "module",
+  "bin": {
+    "crawlcove-mcp": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "seo",
+    "seo-crawler",
+    "site-audit",
+    "claude",
+    "cursor",
+    "crawl-cove"
+  ],
+  "author": "Crawl Cove",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrawlCove/crawlcove-mcp.git"
+  },
+  "homepage": "https://crawlcove.com/?utm_source=github&utm_medium=crawlcove-mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "crawlcove": "github:CrawlCove/crawlcove-cli#v1.1.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}

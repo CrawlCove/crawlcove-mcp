@@ -1,0 +1,117 @@
+{
+  "seedUrl": "https://acme.test/",
+  "crawledAt": "2026-09-29T00:00:00.000Z",
+  "maxPages": 100,
+  "pageCount": 6,
+  "truncated": false,
+  "robotsIgnored": false,
+  "robotsBlocked": [
+    "https://acme.test/private"
+  ],
+  "summary": {
+    "brokenLinks": 2,
+    "missingTitles": 2,
+    "noindex": 1,
+    "redirectChains": 1
+  },
+  "pages": [
+    {
+      "url": "https://acme.test/",
+      "finalUrl": "https://acme.test/",
+      "statusCode": 200,
+      "redirectHops": 0,
+      "fetchError": null,
+      "title": "A page",
+      "titleLength": 6,
+      "metaDescription": "Desc",
+      "metaLength": 4,
+      "h1Count": 1,
+      "canonical": "https://acme.test/",
+      "robotsMeta": null,
+      "indexable": true,
+      "brokenInternalLinks": [
+        "https://acme.test/missing"
+      ]
+    },
+    {
+      "url": "https://acme.test/about",
+      "finalUrl": "https://acme.test/about",
+      "statusCode": 200,
+      "redirectHops": 0,
+      "fetchError": null,
+      "title": null,
+      "titleLength": null,
+      "metaDescription": null,
+      "metaLength": null,
+      "h1Count": 0,
+      "canonical": null,
+      "robotsMeta": null,
+      "indexable": true,
+      "brokenInternalLinks": []
+    },
+    {
+      "url": "https://acme.test/missing",
+      "finalUrl": "https://acme.test/missing",
+      "statusCode": 404,
+      "redirectHops": 0,
+      "fetchError": null,
+      "title": null,
+      "titleLength": null,
+      "metaDescription": null,
+      "metaLength": null,
+      "h1Count": 1,
+      "canonical": "https://acme.test/missing",
+      "robotsMeta": null,
+      "indexable": false,
+      "brokenInternalLinks": []
+    },
+    {
+      "url": "https://acme.test/old",
+      "finalUrl": "https://acme.test/new",
+      "statusCode": 200,
+      "redirectHops": 2,
+      "fetchError": null,
+      "title": "A page",
+      "titleLength": 6,
+      "metaDescription": "Desc",
+      "metaLength": 4,
+      "h1Count": 1,
+      "canonical": "https://acme.test/old",
+      "robotsMeta": null,
+      "indexable": true,
+      "brokenInternalLinks": []
+    },
+    {
+      "url": "https://acme.test/hidden",
+      "finalUrl": "https://acme.test/hidden",
+      "statusCode": 200,
+      "redirectHops": 0,
+      "fetchError": null,
+      "title": "A page",
+      "titleLength": 6,
+      "metaDescription": "Desc",
+      "metaLength": 4,
+      "h1Count": 1,
+      "canonical": "https://acme.test/hidden",
+      "robotsMeta": "noindex, nofollow",
+      "indexable": false,
+      "brokenInternalLinks": []
+    },
+    {
+      "url": "https://acme.test/blog",
+      "finalUrl": "https://acme.test/blog",
+      "statusCode": 200,
+      "redirectHops": 0,
+      "fetchError": null,
+      "title": "A page",
+      "titleLength": 6,
+      "metaDescription": "Desc",
+      "metaLength": 4,
+      "h1Count": 1,
+      "canonical": "https://acme.test/blog",
+      "robotsMeta": null,
+      "indexable": true,
+      "brokenInternalLinks": []
+    }
+  ]
+}
