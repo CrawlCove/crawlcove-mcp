@@ -79,6 +79,7 @@ npm ci && npm run build && npm test
 
 ## Related tools
 
+- [crawlcove-schema-validator](https://github.com/CrawlCove/crawlcove-schema-validator) — validate a page's JSON-LD against Google's required and recommended rich-result properties.
 - [crawlcove-hreflang-checker](https://github.com/CrawlCove/crawlcove-hreflang-checker) — check a page's or a sitemap's hreflang tags: codes, self-reference, x-default and return tags.
 - [crawlcove-cli](https://github.com/CrawlCove/crawlcove-cli) — the command line crawler this server uses for live crawls.
 - [crawlcove-action](https://github.com/CrawlCove/crawlcove-action) — the same checks as a GitHub Action on every PR.
